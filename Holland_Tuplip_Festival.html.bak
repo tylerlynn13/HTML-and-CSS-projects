@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE>
 <html>
 <title>
@@ -8,3 +9,16 @@
 	<a href= "https://youtu.be/yRCmDIW-EQg?t=6" >Tulip Time</a>
 	<a href= "https://www.holland.org/events/tulip-festival" >Info</a>
 </nav>
+=======
+<!DOCTYPE>
+<html>
+<title>
+	<h1> Fields in Holland, MI </h1>
+	</title>
+	<p> Holland, MI is known for the Tulip Festival every spring!</p>
+<nav>
+	<a href= "https://youtu.be/yRCmDIW-EQg?t=6" >Tulip Time</a>
+	<a href= "https://www.holland.org/events/tulip-festival" >Info</a>
+</nav>
+>>>>>>> 84e40caf9b03cb37f16d99dc89d9b232dadfc124
+</html>

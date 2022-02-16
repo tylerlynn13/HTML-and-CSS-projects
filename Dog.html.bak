@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE>
 <html>
 
@@ -5,3 +6,22 @@
 <img src="doggo.jpg" >
 <a href="Assignment.html">assignment</a>
 </html>
+
+<nav>
+	<a href= "Assignment.html">Home</a>
+	<a href="Dog.html">Dog Picture</a>
+	<a href= "https://youtu.be/KlmBCX4WUwY?t=3">Dog Video</a>
+
+<!DOCTYPE>
+<html>
+
+<p> doggo </p>
+<img src="doggo.jpg" >
+<a href="Assignment.html">assignment</a>
+</html>
+<nav>
+	<a href= "Assignment.html">Home</a>
+	<a href="Dog.html">Dog Picture</a>
+	<a href= "https://youtu.be/KlmBCX4WUwY?t=3">Dog Video</a>
+
+</nav>

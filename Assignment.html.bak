@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE>
 <html>
 	<title> Milks Favorite Cookie </title>
@@ -22,3 +23,34 @@
 	<a href="Dog.html">Dog Picture</a>
 	<a href= "https://youtu.be/KlmBCX4WUwY?t=3">Dog Video</a>
 </nav>
+<blockquote cite="https://www.countryliving.com/life/g18368675/flower-quotes/">
+Many eyes go through the meadows, but few see the flowers in it.
+=======
+<!DOCTYPE>
+<html>
+	<title> Milks Favorite Cookie </title>
+	<body> 
+	
+	<footer Oreos are the best>
+	<main>
+	<p> Oreos are the best cookie with milk </p>
+	<h1> I love oreos <h1>
+	<h2> I love oreos <h2>
+	<h3> I love oreos <h3>
+	<h6> I love oeros <h6>
+		<img src="oreo.jpg">
+	
+	<a href="https://ggsc.s3.amazonaws.com/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg"doggo</a>
+	</main>
+	</footer>
+	</body>
+</html>
+<nav>
+	<a href= "Assignment.html">Home</a>
+	<a href="Dog.html">Dog Picture</a>
+	<a href= "https://youtu.be/KlmBCX4WUwY?t=3">Dog Video</a>
+</nav>
+<blockquote cite="https://www.countryliving.com/life/g18368675/flower-quotes/">
+Many eyes go through the meadows, but few see the flowers in it.
+>>>>>>> 84e40caf9b03cb37f16d99dc89d9b232dadfc124
+</blockquote>
