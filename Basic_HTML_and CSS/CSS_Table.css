@@ -1,0 +1,18 @@
+table {
+	border: 1px deeppink
+}
+
+td:hover {
+	background-color: solid silver;
+	color:deepskyblue;
+}
+
+tr,th {
+	background-color: fuchsia;
+	color: forestgreen;
+}
+
+tr,td {
+	background-color: gold;
+	color: black;
+}

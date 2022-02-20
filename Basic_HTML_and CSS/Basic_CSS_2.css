@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+	<body>
+	<style>
+		.My_Style {
+		background-color: DarkMagenta;
+		color: blue;
+		text-decoration: italic;
+		font-weight: bold;
+		font-size: medium;
+	}
+		.My_Style2 {
+		background-color: darkorange;
+		color: white;
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: large;
+	}
+h1 {
+	text-shadow: 2px 2px pink;
+}
+</style>
+<h2 class="My_Style"> Number One</h2>
+<h4 class="My_Style2"> Number Two</h4>
+</body>
+</html>
+	
+		

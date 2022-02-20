@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> Colors of Whales</title>
+	</head>
+	<body>
+		<h2> Whales are different shades of the same </h2>
+		<div style="color: blue">
+			<h3> Most are blue</h3>
+		<div style="color: grey">
+			<h2> Some are grey </h2>
+		</div>
+		</head>
+		</body>
+	<head>
+	</head>
+	<body>
+		<p> CornFlower Blue is a match to a Humpback Whale.</p>
+		<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
+	</body>
+</html>
