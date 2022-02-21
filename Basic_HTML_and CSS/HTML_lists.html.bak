@@ -9,4 +9,5 @@
 		<ul>mouse</ul>
 		<ul>hamster</ul>
 		<ul>pig</ul>
+		<link rel="stylesheet" type="text/css" href="CSS_Lists.css">
 </html>
