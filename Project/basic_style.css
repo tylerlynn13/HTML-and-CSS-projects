@@ -20,7 +20,7 @@ h1 {
     SELECT ALL SQUARES IN THE ARRAY
  ------------------------------------------- */
 .container .squares:nth-child(-n+4) {
-    background-image: url("./Project/images/icons/smileyface2.png")
+    background-image: url("https://techacademystorage.blob.core.windows.net/htmlandcss/icons.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -67,7 +67,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 HOVER, TRANSLATE, & TRANSFORM EFFECTS
 ------------------------------------------*/
 .container .squares:nth-child(-n+4):hover {
-    background-image: url("./Project/images/icons/smileyface1.png");
+    background-image: url("https://techacademystorage.blob.core.windows.net/htmlandcss/icons2.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -97,7 +97,7 @@ ANIMATION EFFECT
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("./images/icons/smileyface1.png");
+        background-image: url("https://techacademystorage.blob.core.windows.net/htmlandcss/icons2.png");
     }
     50% {
         transform: translateY(330px);
