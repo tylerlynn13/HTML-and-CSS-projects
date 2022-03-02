@@ -1,0 +1,17 @@
+html {
+    background-color: lightblue;
+    text-decoration-color: darkblue;
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+}
+img {
+    border-color: #ff0000;
+    border-style: dashed;
+    border-radius: 2px;
+}
+    
+
+
