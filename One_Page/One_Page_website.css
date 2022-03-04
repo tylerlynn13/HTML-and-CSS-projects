@@ -1,0 +1,11 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+input {
+    width: auto;
+    margin: 2px 4px;
+    border: 5px;
+    border-radius: 2px 4px;
+}
