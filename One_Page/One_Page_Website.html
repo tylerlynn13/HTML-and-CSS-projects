@@ -4,7 +4,7 @@
 		
 		<h1><center> Win a trip to the Galapagos Islands! </</center></h1>
 		<link rel="stylesheet" type="text/css" href="One_Page_website.css">
-		
+		<script src="One_Page_website.js"></script>
 
 	<meta charset="utf-8">
 	
@@ -18,18 +18,69 @@
 		<summary> How do you win?</summary>
 			<p>Enter your information for a drawing, for FREE!</p>
 		</details>
+
+
+
+		<div class="row">
+			<div class="column">
+			  <img src="onep.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="one.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="onep.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+			
+		  </div>
+		  
+		  <div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="mySlides">
+				<div class="numbertext">1 / 4</div>
+				<img src="onep.jpg" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+				<img src="one.jpg" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+				<img src="onep.jpg" style="width:100%">
+			  </div>
+			  
+			 
+			  
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+		  
+			 
+			  <div class="column">
+				<img class="demo cursor" src="one.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+			  </div>
+			  <div class="column">
+				<img class="demo cursor" src="onep.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+			  </div>
+			</div>
+		  </div>
+		  
 	
-	<div><center>
-		<img src="https://media.istockphoto.com/photos/view-from-bartolome-island-picture-id470028282?k=20&m=470028282&s=612x612&w=0&h=9zJvimVJjVcvyRGmFTlhAN4mBQIFb5GWxAw-0d6p2Po=" alt="island" width="300" height="200">
-	</div>
+
 	
 <nav>
 	<center>
 		<a href= "https://www.youtube.com/watch?v=6UqiDs-_1A8"><font color="coral">Click Me for a cool video!</a>
 </nav>
-		<div><center>
-			<img src="https://d1bv4heaa2n05k.cloudfront.net/posts%2FP4Sj5axzb3zprWE6p%2F1544615868407-shutterstock_1172162491.jpg" alt="resort" width="400" height="300">
-<div>
+
+
 	<center>
 							<form action=""method="post">
 								<input class="book now" type="text" value="First Name">

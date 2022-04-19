@@ -32,6 +32,19 @@ p {
   font-weight: bold;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 </style>
 </head>
@@ -39,8 +52,15 @@ p {
 
 <h2>Pretty night sky</h2>
 <p>I think it's a really pretty picture.</p>
+<div class="container">
+  <div class="container">
+    <img src="./cool.jpg" alt="Night Sky" style="width:50%;">
+    <div class="centered">Centered</div>
+  </div>
+  
 
-<img src="./cool.jpg" alt="Night sky" style="width:50%;">
+
+
 
 <footer>
   <p>Author: No one<br>

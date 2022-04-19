@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: lightseagreen;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: lightslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: palegreen;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 200px; 
+  color: lightseagreen;
+}
+
+p:hover{
+    background-color: ghostwhite;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container  {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightgray;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+video {
+    height: 50%;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <h1><center>Coffee Eporium</center></h1>
+  <h2>Curtis, Michigan</h2>
+  <h2>The Best place around for Coffee!</h2>
+
+  <p>Small town but definetly big coffee taste.</p>
+  <p>A little about us, we started in 1998 with plain and simple coffee,
+    <br>today we have over 50 coffee, tea, and juice drinks.Don't get jus wrong<br>
+    we still have just plain ol' coffee too! Come up and try us out!</p>
+
+    <div class="row">
+        <div class="column" style="background-color:palegreen;">
+          <h2>Coffee</h2>
+          <p>If you're a coffee lover who loves to try new flavors of coffee,<br>
+        you will love to try our unique house blend! If you like to stay in your<br>
+        comfort zone we have over 50 collected favorite coffee flavors! </p>
+        </div>
+        <div class="column" style="background-color:lightslategray;">
+          <h2>Specialty Drinks</h2>
+          <p>If you're not a huge coffee fanatic we have plenty of options for you too!<br>
+            From bubble tea and iced tea to smothies and shakes.Whatever you're in  the <br>
+            mood for!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="coffee.jpg" alt="Coffee" class="image">
+        <div class="overlay">
+          <div class="text">Vanilla Latte</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <video autoplay muted loop> <source src="video.mp4" type="video/mp4"></video>
+        <div class="overlay">
+            <div class="text">Fresh latte's</div>
+
+        </div>
+    </div>
+     
+  
+
+</div>
+
+</body>
+</html>
