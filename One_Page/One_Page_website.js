@@ -2,9 +2,6 @@ function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
 
-
-
-
 function closeModal() {
     document.getElementById("myModal").style.display = "none";
 }
@@ -13,7 +10,7 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-    showSlides(slideIndex);
+    showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
@@ -35,5 +32,5 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += "active";
-    captionText.innerHTML = dots[slideIndex-1].addEventListener;this;
+    captionText.innerHTML = dots[slideIndex-1].alt;
 }
