@@ -65,7 +65,9 @@
             <p>All of ouyr auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
              <p>Relax in our, extra-wide, plush cushioning recliners.Our seating arrangement is disability friendly &#9855:.</p>
 
-
+             <div class="spinner-grow" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
 
 
                     
@@ -131,7 +133,19 @@
               </div>
             </div>
           </div>     
-  
+
+          <!--Jumbotron heading-->
+          <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+            <div class="container">
+              <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;text-transform:uppercase;">
+              Movie Deals</h1>
+              <p class="lead">Check out our monthly deals...</p>
+              <!--movie deals-->
+              <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See our monthly movie deals!</button> 
+              <!--/movie deals--> 
+            </div>
+          </div>
+          <!--/jumbotron heading-->
 
 
         
@@ -143,10 +157,46 @@
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn-primary">Submit</button>
                      </form>
                 </div>
+                <!--signup form-->
+                <div class="row">
+                  <div class="container text-center col-ad-6" id="deals">
+                    <div class="container text-center">
+                      <h1 class="display-5 my-4 col-1g-auto text-primary">Stay current on Movies!</h1>
+                      <div class="input-group ab-5 inout-group-sm">
+                        <input type="text" class="form-control" placeholder="Email">
+                        <span class="input-group-btn">
+                          <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-containter="body" data-toggle="popover" data-placement="top" data-content="Submit">Sign up!</button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!--signup form-->
 
+                  <!--form modal-->
+                  <div class="modal fade" id="register">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Modal title</h5>
+                          <button type="button" class="close" data-containter="modal" aria-label="close">
+                            <span aria-hidden="true">times</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Modal body text</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary"></button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal"></button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 <div class="container my-5">
                         <ul class="nav nav-inline">
                             <li class="nav-item">
@@ -164,6 +214,8 @@
                                 
                         </ul>
                 </div>
+
+
 
 
 
