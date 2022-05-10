@@ -34,3 +34,16 @@ function showSlides(n) {
     dots[slideIndex-1].className += "active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+window.addEventListener('DOMContenetLoaded', () => {
+    document.body.classList.remove('fade-out');
+});
+
+function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+
