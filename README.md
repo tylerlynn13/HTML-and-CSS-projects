@@ -2,15 +2,13 @@
 Projects
 
 
-  The Space Station
-      I created a space resort website. It's styled using css and has a navbar, 
-      
-  Movie Theatre
-  
-  
-    The movie theatre project was an example of a homepage of a movie theatre company. We used bootstrap, including; jumbotron, cards,forms, and dropdowns.
+        
+[Movie Theatre](https://github.com/tylerlynn13/HTML-and-CSS-projects/files/13467103/academy_cinemas.zip)
+
+  The movie theatre project was an example of a homepage of a movie theatre company. We used bootstrap, including; jumbotron, cards,forms, and dropdowns.
     
- Portfolio Website 
- 
-    This we used css to style. We did a video head, used navbar,columns, contact section, etc.
- 
+
+ [Space Station](https://github.com/tylerlynn13/HTML-and-CSS-projects/files/13467288/index.-.Copy.zip)
+
+   A simple space station project
+
